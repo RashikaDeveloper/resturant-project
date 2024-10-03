@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image:url(image.jpg);
+}
+.food{
+    margin: 40px;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.section-one__name{
+    font-size: 30px;
+}
+.section-one__desc{
+    font-size: 20px;
+}
+.section-two,.section-three,.section-four{
+    background-color: aquamarine;
+    padding: 30px;
+    width: 240px;
+    border: solid 5px black;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top; 
+    text-transform: capitalize;
+}
+.section-two__tittle,.section-three__tittle,.section-four__tittle{
+    font-size: 40px;
+    text-align: center;
+}
+.section-two__desc,.section-three__desc,.section-four__desc{
+    font-size: 16px !important;
+}
+.section-two__order,.section-three__order,.section-four__order{
+    background-color: darkcyan;
+    margin-left: 80px;
+}
+.section-two__price,.section-three__price,.section-four__price{
+    text-decoration: line-through;
+    display: inline-block;
+    font-size: 20px;
+}
+.section-extraprice{
+    font-size: 25px;
+}
+
+.section-five{
+    background-color: black;
+    color: bisque;
+    padding-left: 40%;
+}
+.section-five__tittle{
+    padding-top: 20px;
+    margin-left: 85px;
+}
+.section-five__name{
+    height: 20px;
+    line-height: 50%;
+}
+.section-five__age{
+    height: 20px;
+}
+.section-five__email{
+    height: 20px;
+}
+.section-five__send{
+    background-color: darkgoldenrod;
+    border-color: blueviolet;
+    text-align: center;
+    margin-left: 40px;
+    padding: 5px;
+
+    
+}
